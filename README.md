@@ -1,6 +1,3 @@
-
-This project is made for learning unit testing in TypeScript.
-
 This project is written for learning Unit Testing with Typescript. 
 
 Here is the result of the tests:
