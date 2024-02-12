@@ -3,7 +3,7 @@ export class Calculator {
     addition(x, y): number {
 
         if (typeof x !== 'number' || typeof y !== 'number') {
-            return NaN;
+            throw new Error("Not a number!");
         }
 
         return x + y;
@@ -12,7 +12,7 @@ export class Calculator {
     subtraction(x, y): number {
 
         if (typeof x !== 'number' || typeof y !== 'number') {
-            return NaN;
+            throw new Error("Not a number!");
         }
 
         return x - y;
@@ -21,7 +21,7 @@ export class Calculator {
     multiplication(x, y): number {
 
         if (typeof x !== 'number' || typeof y !== 'number') {
-            return NaN;
+            throw new Error("Not a number!");
         }
 
         return x * y;
@@ -30,7 +30,7 @@ export class Calculator {
     division(x, y): number {
 
         if (typeof x !== 'number' || typeof y !== 'number') {
-            return NaN;
+            throw new Error("Not a number!");
         }
 
         return x / y;

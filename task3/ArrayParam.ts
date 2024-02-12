@@ -1,6 +1,6 @@
-export function arrayParam(arr: { name: string, age: number }[]): boolean {
+export function checkAgeofObject(arr: { name: string, age: number }[]): boolean {
 
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i].age < 18) {
             return false;
         }
